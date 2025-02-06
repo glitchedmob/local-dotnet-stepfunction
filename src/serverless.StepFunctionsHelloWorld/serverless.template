@@ -41,7 +41,7 @@
         }
       }
     },
-    "StateMachine": {
+    "HelloWorldStepFunction": {
       "Type": "AWS::StepFunctions::StateMachine",
       "Properties": {
         "RoleArn": {

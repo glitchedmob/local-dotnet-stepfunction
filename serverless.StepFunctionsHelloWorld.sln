@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serverless.StepFunctionsHel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serverless.StepFunctionsHelloWorld", "src\serverless.StepFunctionsHelloWorld\serverless.StepFunctionsHelloWorld.csproj", "{CC21AC38-89CB-E942-2CE5-E05423CDA30F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A1FC091-BC31-496D-95EC-E33839B5EA46}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
