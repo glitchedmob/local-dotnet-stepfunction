@@ -21,7 +21,7 @@ Write-Output "Using state machine ARN: $stateMachineArn"
 
 $startResponse = aws stepfunctions start-execution `
     --state-machine-arn $stateMachineArn `
-    --input '{"key": "value"}' | ConvertFrom-Json
+    --input '{"WaitInSeconds": 10}' | ConvertFrom-Json
 
 $executionArn = $startResponse.executionArn
 Write-Output "Started execution: $executionArn"
